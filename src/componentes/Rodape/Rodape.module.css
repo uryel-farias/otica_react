@@ -1,0 +1,8 @@
+.rodape_container {
+    width: 100%;
+    padding: 40px 30px;
+    color: var(--brancoLv1);
+    background-color: var(--preto);
+    text-align: center;
+
+}

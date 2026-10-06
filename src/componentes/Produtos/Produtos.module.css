@@ -1,0 +1,75 @@
+.produtos_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 30px;
+    gap: 20px;
+
+}
+
+.produtos_container h3 {
+    font-size: 2rem;
+}
+
+.produtos_container p {
+    font-size: 1.3rem;
+}
+.itens_container {
+    margin: 40 auto;
+    display: flex;
+    max-width: 1024px;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.Card_container {
+    display: flex;
+    flex: 1 1 400px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 20px -4px #000000;
+    gap: 20px;
+    align-content: space-between;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: rgb(230, 230, 230);
+}
+
+.Card_container img {
+    max-width: 250px;
+    height: 110px;
+}
+
+.Card_container h4 {
+    font-size: 1.3rem;
+}
+
+.Card_container span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.lista_beneficios {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.3rem;
+}
+
+.lista_beneficios li {
+    list-style-position: inside;
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
